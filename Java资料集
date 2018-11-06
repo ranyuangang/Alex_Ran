@@ -1,0 +1,949 @@
+内容
+项目
+Bean映射
+建立
+字节操作
+高速缓存
+CLI
+集群管理
+代码分析
+代码覆盖率
+代码生成器
+编译器编译
+组态
+约束满足问题解决者
+CSV
+数据结构
+数据库
+日期和时间
+依赖注入
+发展
+分布式应用
+分布式事务
+分配
+文件处理
+正式验证
+功能编程
+游戏开发
+地理空间
+GUI
+高性能
+HTTP客户端
+超媒体类型
+IDE
+意象
+JSON处理
+JSON
+JVM和JDK
+记录
+机器学习
+消息
+微服务
+杂
+监控
+本地人
+自然语言处理
+联网
+ORM
+PaaS的
+PDF
+绩效分析
+平台
+流程
+反应性图书馆
+REST框架
+科学
+搜索
+安全
+序列化
+服务器
+模板引擎
+测试
+效用
+版本管理员
+网络爬行
+Web框架
+资源
+令人敬畏的名单
+社区
+前端
+有影响力的书籍
+播客和截屏视频
+推特
+网站
+特约
+项目
+Bean映射
+简化bean映射的框架。
+
+Dozer - Mapper使用注释和API或XML配置将数据从一个对象复制到另一个对象。
+JMapper - 使用字节代码操作进行闪电般的快速映射。支持注释和API或XML配置。
+MapStruct - 基于配置约定方法简化不同bean类型之间映射的代码生成器。
+ModelMapper - 智能对象映射库，可自动将对象相互映射。
+Orika - JavaBean映射框架，递归地将数据（以及其他功能）从一个对象复制到另一个对象。
+Selma - 基于注释处理器的bean映射器。
+建立
+处理应用程序的构建周期和依赖关系的工具。
+
+Apache Maven - 声明式构建和依赖关系管理，有利于约定优于配置。它可能更适合Apache Ant，它使用相当程序化的方法并且难以维护。
+Bazel - 来自Google的工具，可以快速可靠地构建代码。
+Buck - 鼓励创建由代码和资源组成的小型可重用模块。
+Gradle - 通过Groovy编程的增量构建，而不是声明XML。适用于Maven的依赖管理。
+字节操作
+库以编程方式操作字节码。
+
+ASM - 通用，低级字节码操作和分析。
+Byte Buddy - 使用流畅的API进一步简化字节码生成。
+bytecode-viewer - Java 8 Jar＆Android APK逆向工程套件。
+Byteman - 通过DSL（规则）在运行时处理字节码; 主要用于测试/故障排除。
+cglib - 字节码生成库。
+Javassist - 试图简化字节码编辑。
+Mixin - 使用真实的Java代码在运行时处理字节码。
+高速缓存
+提供缓存设施的库。
+
+咖啡因 - 高性能，接近最佳的缓存库。
+Ehcache - 分布式通用缓存。
+Infinispan - 用于缓存的高度并发的键/值数据存储。
+CLI
+与CLI相关的所有库的库。
+
+ASCII表 - 用ASCII绘制表的库。
+Airline - 基于注释的框架，用于解析类似Git的命令行参数。
+args4j - 用于解析命令行参数的小型库。
+Jansi - 用于格式化控制台输出的ANSI转义码。
+Java ASCII Render - 控制台的图形基元。
+JCommander - 具有自定义类型的命令行参数解析框架，并通过实现接口进行验证。
+JLine - 包括完成或历史等现代外壳的功能。
+JOpt Simple - 使用POSIX＃getopt和GNU＃getopt_long语法的流畅解析器。
+picocli - 使用ANSI颜色和样式有助于基于注释的POSIX / GNU /任何语法，子命令，强选键和选项和位置参数。
+Text-IO - 帮助创建完整的基于控制台的应用程序。
+Lanterna - 简单的控制台文本GUI库，类似于curses。
+集群管理
+可以动态管理集群内应用程序的框架。
+
+Apache Aurora - 用于长期运行服务和cron作业的Mesos框架。
+Apache Mesos - 从机器中提取CPU，内存，存储和其他计算资源。
+Singularity - Mesos框架，使部署和操作变得简单。它支持Web服务，后台工作程序，预定作业和一次性任务。
+代码分析
+提供指标和质量测量的工具。
+
+Checkstyle - 编码约定和标准的静态分析。
+Error Prone - 将常见的编程错误作为编译时错误捕获。
+Infer - 用于验证代码正确性的现代静态分析工具。
+jQAssistant - 使用基于Neo4J的查询语言进行静态代码分析。
+NullAway - 以低构建时开销消除NullPointerExceptions。
+PMD - 用于查找错误编码实践的源代码分析。
+SonarJava - SonarQube和SonarLint的静态分析仪。
+SourcetrailC - 可视源代码导航器。
+Spoon - 用于分析和转换Java源代码的库。
+Spotbugs - 字节码的静态分析，以发现潜在的错误。
+代码覆盖率
+框架和工具，支持测试套件的代码覆盖度量标准收集。
+
+CloverC - 依赖于源代码检测而不是字节码检测。
+Cobertura - 依靠离线（或静态）字节码检测和类加载来收集代码覆盖率指标。
+JaCoCo - 使用脱机和运行时字节码检测来收集代码覆盖率指标的框架。
+代码生成器
+为重复代码生成模式的工具，以减少冗长和错误倾向。
+
+ADT4J - 用于代数数据类型的JSR-269代码生成器。
+自动 - 生成工厂，服务和值类。
+FreeBuilder - 自动生成Builder模式。
+Immutables - 注释处理器，用于生成简单，安全且一致的值对象。
+JavaPoet - 生成源文件的API。
+JHipster - 用于Spring Boot和AngularJS的Yeoman源代码生成器。
+Joda-Beans - 为Java添加可查询属性的小框架，增强了JavaBeans。
+Lombok - 旨在减少冗长的代码生成器。
+编译器编译
+有助于创建解析器，解释器或编译器的框架。
+
+ANTLR - 用于自顶向下解析的复杂全功能框架。
+JavaCC - 生成自顶向下解析器的解析器生成器。允许词法状态切换并允许扩展BNF规范。
+JFlex - 词法分析器生成器。
+组态
+提供外部配置的库。
+
+centraldogma - 基于Git，ZooKeeper和HTTP / 2的高度可用的版本控制服务配置库。
+cfg4j - 用Java编写的分布式应用程序的现代配置库。
+config - JVM语言的配置库。
+dotenv - Java的十二因素配置库。
+ini4j - 提供用于处理Windows'INI文件的API。
+KAConf - 基于注释的Java和Kotlin配置系统。
+所有者 - 减少属性的样板。
+约束满足问题解决者
+有助于实现优化和可满足性问题的库。
+
+Choco - 使用约束编程技术的现成约束满足问题求解器。
+JaCoP - 包含FlatZinc语言的界面，使其能够执行MiniZinc模型。
+OptaPlanner - 业务规划和资源调度优化求解器。
+CSV
+简化读/写CSV数据的框架和库。
+
+jackson-dataformat-csv - 用于读写CSV的Jackson扩展。
+opencsv - 简单的CSV解析器。
+超级CSV - 强大的CSV解析器，支持Dozer，Joda-Time和Java 8。
+uniVocity-parsers - 速度最快，功能最全的解析器之一。还提供TSV和固定宽度记录的解析器。
+数据库
+一切都简化了与数据库的交互。
+
+Apache Phoenix - HBase上的高性能关系数据库层，适用于低延迟应用程序。
+Chronicle Map - 高效的内存（选择持久化到磁盘），堆外键值存储。
+德鲁伊 - 高性能，面向列的分布式数据存储。
+eXist - NoSQL文档数据库和应用程序平台。
+FlexyPool - 将指标和故障转移策略引入最常见的连接池解决方案。
+Flyway - 简单的数据库迁移工具。
+H2 - 小型SQL数据库，因其内存功能而着名。
+HikariCP - 高性能JDBC连接池。
+jasync-sql - 用于MySQL和PostgreSQL的异步数据库驱动程序。
+JDBI - 方便的JDBC抽象。
+Jedis - 与Redis交互的小客户端，具有命令方法。
+Jest - Elasticsearch REST API的客户端。
+jetcd - etcd的客户端库。
+Jinq - 通过符号执行Java 8 Lambdas（在JPA或jOOQ之上）查询Typesafe数据库。
+jOOQ - 基于SQL模式生成类型安全代码。
+Liquibase - 独立于数据库的库，用于跟踪，管理和应用数据库模式更改。
+MapDB - 嵌入式数据库引擎，提供备份在磁盘或堆外内存中的集合。
+MariaDB4j - MariaDB的Launcher，不需要安装或外部依赖。
+OrientDB - 在Hazelcast之上编写的可嵌入分布式数据库。
+Presto - 用于大数据的分布式SQL查询引擎。
+Querydsl - Typesafe统一查询。
+领域 - 直接在手机，平板电脑或可穿戴设备内部运行的移动数据库。
+Redisson - 允许在Redis服务器上部分布式和可扩展的数据结构。
+requery - 一个现代，轻量级但功能强大的对象映射和SQL生成器。轻松映射或创建数据库，或从任何使用Java的平台执行查询和更新。
+Speedment - 利用Java 8的Stream API进行查询的数据库访问库。
+sql2o - 精简的JDBC包装器，简化了数据库访问，并提供了ResultSet到POJO的简单映射。
+Vibur DBCP - 具有高级性能监视功能的JDBC连接池库。
+Xodus - 高度并发的事务模式和符合ACID的嵌入式数据库。
+数据结构
+高效且具体的数据结构。
+
+Apache Avro - 具有动态类型，未标记数据和缺少手动分配ID的数据交换格式。
+Apache Orc - 基于Hadoop的工作负载的快速高效的列式存储格式。
+Apache Parquet - 基于谷歌关于Dremel的论文中的汇编算法的列式存储格式。
+Apache Thrift - 源自Facebook的数据交换格式。
+Big Queue - 基于内存映射文件的大型，快速且持久的队列。
+持久集合 - Java集合框架的持久和不可变模拟。
+Protobuf - 谷歌的数据交换格式。
+SBE - 简单二进制编码，是最快的消息格式之一。
+磁带 - 闪电般快速，事务性，基于文件的FIFO。
+Wire - 干净，轻量级的协议缓冲区。
+日期和时间
+与处理日期和时间相关的库。
+
+Almanac Converter - 不同日历系统之间的简单转换。
+iCal4j - 解析并构建iCalendar RFC 5545数据模型。
+ThreeTen-Extra - 补充JDK 8中的日期时间类。
+Time4J - 高级日期和时间库。
+依赖注入
+有助于实现控制反转范式的图书馆。
+
+Apache DeltaSpike - CDI扩展框架。
+Dagger2 - 没有反射的编译时注入框架。
+Feather - 超轻量级，符合JSR-330标准的依赖注入库。
+州长 - 增强Google Guice的扩展程序和实用程序。
+Guice - 完成Dagger的轻量级和自以为是的框架。
+HK2 - 轻量级和动态依赖注入框架。
+发展
+从根本上加强发展进程。
+
+AspectJ - 面向方面的无缝编程扩展。
+DCEVM - 允许在运行时无限制地重新定义已加载类的JVM修改。
+Faux Pas - 通过规避Java Runtime中的任何功能接口都不允许抛出已检查异常的问题来简化错误处理的库。
+HotswapAgent - 无限的运行时类和资源重新定义。
+JavaParser - 解析，修改和生成Java代码。
+JavaSymbolSolver - Java的符号解算器。
+JRebelC - 无需重新部署即可立即重新加载代码和配置更改。
+NoException - 允许在功能接口中检查异常，并将异常转换为Optional return。
+分布式应用
+用于编写分布式和容错应用程序的库和框架。
+
+Apache Geode - 内存数据管理系统，提供可靠的异步事件通知和有保证的消息传递。
+Apache Storm - 实时计算系统。
+Apache ZooKeeper - 用于大型分布式系统的分布式配置，同步和命名注册表的协调服务。
+Atomix - 容错分布式协调框架。
+Axon Framework - 用于创建CQRS应用程序的框架。
+Dropwizard断路器 - 断路器的断路器设计样式。
+故障安全 - 通过重试和断路器进行简单的故障处理。
+HazelcastC - 具有免费开源版本的高度可扩展的内存数据网格。
+Hystrix - 提供延迟和容错能力。
+JGroups - 用于可靠消息传递和集群创建的工具包。
+轨道 - 虚拟演员; 为传统演员增加了另一层次的抽象。
+Quasar - JVM的轻量级线程和actor。
+resilience4j - 功能容错库。
+ScaleCube - 基于SWIM和八卦协议的可嵌入集群成员库。
+Zuul - 提供动态路由，监控，弹性，安全性等的网关服务。
+分布式事务
+分布式事务提供了一种机制，用于在存在并发访问和部分故障时确保数据更新的一致性。
+
+Atomikos - 为REST，SOA和微服务提供事务，支持JTA和XA。
+Bitronix - JTA 1.1 API的简单但完整的实现。
+Narayana - 为传统的ACID和补偿交易提供支持，也符合JTA，JTS和其他标准。
+分配
+处理本机格式的应用程序分发的工具。
+
+BintrayC - 处理发布的二进制文件的版本控制。与Maven或Gradle兼容，提供免费的开源软件计划以及多个商业计划。
+Boxfuse - 使用不可变基础架构的原理将JVM应用程序部署到AWS。
+Capsule - 简单而强大的包装和部署。类固醇的胖JAR，或支持JVM优化容器的“Docker for Java”。
+Central Repository - 最大的二进制组件存储库，可作为开源社区的免费服务提供。默认情况下由Apache Maven使用，并在所有其他构建工具中提供。
+IzPack - 用于跨平台部署的安装创作工具。
+JitPack - GitHub易于使用的软件包存储库。按需构建Maven / Gradle项目并发布即用型软件包。
+NexusC - 具有代理和缓存功能的二进制管理。
+packr - 在Windows，Linux和Mac OS X上打包JAR，资产和JVM以进行本机分发。
+真正可执行的jars-maven-plugin - 用于制作自动执行JAR的Maven插件。
+文件处理
+协助处理办公文档格式的库。
+
+Apache POI - 支持OOXML（XLSX，DOCX，PPTX）以及OLE2（XLS，DOC或PPT）。
+documents4j - 使用第三方转换器（如MS Word）进行文档格式转换的API。
+docx4j - 创建和操作Microsoft Open XML文件。
+zerocell - 基于注释的API，用于将Excel工作表中的数据读入POJO，重点是减少开销。
+正式验证
+形式方法工具：证明助手，模型检查，符号执行等。
+
+CATG - Concolic单元测试引擎。使用正式方法自动生成单元测试。
+Checker Framework - 可插拔类型系统。包括空值类型，物理单位，不变性类型等。
+Daikon - 检测可能的程序不变量，并根据这些不变量生成JML规范。
+Java Path Finder（JPF） - 包含模型检查器等的JVM形式验证工具。由美国宇航局创建。
+JMLOK 2.0 - 通过反馈导向的随机测试生成检测代码和JML规范之间的不一致性，并建议检测到每个不合格的可能原因。
+KeY - 正式的软件开发工具，旨在尽可能无缝地集成面向对象软件的设计，实现，形式规范和形式验证。使用JML进行规范和符号执行以进行验证。
+OpenJML - 将JML规范转换为SMT-LIB格式，并将程序隐含的证明问题传递给后端解算器。
+功能编程
+促进函数式编程的库。
+
+cyclops-react - Monad和流实用程序，理解，模式匹配，所有JDK集合的功能扩展，未来流，蹦床等等。
+derive4j - Java 8注释处理器和框架，用于派生代数数据类型构造函数，模式匹配和态射。
+Fugue - 番石榴的功能扩展。
+功能Java - 实现许多基本和高级编程抽象，有助于面向组合的开发。
+jOOλ - Java 8的扩展，旨在通过提供众多缺失类型和丰富的顺序Stream API添加来修复lambda中的空白。
+protonpack - 流实用程序的集合。
+StreamEx - 增强Java 8流。
+Vavr - 提供持久数据类型和功能控制结构的功能组件库。
+游戏开发
+支持游戏开发的框架。
+
+FXGL - JavaFX游戏开发框架。
+jMonkeyEngine - 用于现代3D开发的游戏引擎。
+libGDX - 全方位的跨平台，高级框架。
+LWJGL - 提取OpenGL / CL / AL等库的强大框架。
+地理空间
+用于处理地理空间数据和算法的库。
+
+Apache SIS - 用于开发地理空间应用程序的库。
+Geo - Java中的GeoHash实用程序。
+Geotoolkit.org - 用于开发地理空间应用程序的库。建立在Apache SIS项目之上。
+GeoTools - 为地理空间数据提供工具的库。
+GraphHopper - 道路路由引擎。用作Java库或独立Web服务。
+H2GIS - H2数据库的空间扩展。
+Jgeohash - 使用GeoHash算法的库。
+Mapsforge - 基于OpenStreetMap数据的地图渲染。
+Spatial4j - 通用空间/地理空间图书馆。
+GUI
+用于创建现代图形用户界面的库。
+
+JavaFX - Swing的继承者。
+Scene Builder - JavaFX应用程序的可视化布局工具。
+SWT - 标准窗口小部件工具包，一个图形窗口小部件工具包。
+高性能
+关于高性能计算的一切，从集合到特定库。
+
+Agrona - 高性能应用程序中常见的数据结构和实用程序方法。
+Disruptor - 线程间消息传递库。
+Eclipse Collections - 受Smalltalk启发的集合框架。
+fastutil - 快速紧凑的特定类型集合。
+HPPC - 原始集合。
+JCTools - JDK目前​​缺少并发工具。
+Koloboke - 哈希集和哈希映射。
+HTTP客户端
+协助创建HTTP请求和/或绑定响应的库。
+
+异步Http客户端 - 异步HTTP和WebSocket客户端库。
+Feign - 受Retrofit，JAXRS-2.0和WebSocket启发的HTTP客户端绑定器。
+OkHttp - HTTP + SPDY客户端。
+使用反应流和缓存来播放WS -Typesafe客户端。
+restQL-core - 从多个服务获取信息的微服务查询语言。
+改造 - Typesafe REST客户端。
+功能区 - 在云中经过实战测试的客户端IPC库。
+Riptide - Spring的RestTemplate的客户端响应路由。
+超媒体类型
+处理超媒体类型序列化的库。
+
+JSON-LD - JSON-LD实现。
+Siren4J - Siren规范库。
+IDE
+尝试简化开发的几个方面的集成开发环境。
+
+Eclipse - 已建立的开源项目，支持大量插件和语言。
+IntelliJ IDEAC - 支持许多JVM语言，为Android开发提供了很好的选择。商业版针对企业部门。
+NetBeans - 提供从数据库访问到HTML5的多个Java SE和EE功能的集成。
+Visual Studio Code - 通过使用来自内部市场的扩展，通过简单，现代的工作流为轻量级项目提供Java支持。
+意象
+协助创建，评估或操纵图形图像的库。
+
+Imgscalr - 在纯Java 2D中实现的简单，高效且硬件加速的图像缩放库。
+Tess4J - Tesseract OCR API的JNA包装器。
+Thumbnailator - 高质量的缩略图生成库。
+TwelveMonkeys - 扩展支持的图像文件格式数量的插件集合。
+ZXing - 多格式1D / 2D条码图像处理库。
+JSON
+用于将JSON序列化和反序列化为Java对象的库。
+
+DSL-JSON - 具有高级编译时数据绑定的JSON库。
+Genson - 功能强大且易于使用的Java-to-JSON转换库。
+Gson - 将对象序列化为 JSON，反之亦然。即时使用具有良好的性能。
+HikariJSON - 高性能JSON解析器，比Jackson快2倍。
+jackson-modules-java8 - 用于Java 8数据类型和功能的Jackson模块集。
+Jackson-datatype-money - 支持JSON序列化和JavaMoney数据类型反序列化的开源Jackson模块。
+Jackson - 与GSON类似，但如果您需要更频繁地实例化库，则可以提高性能。
+JSON-io - 将Java转换为JSON。将JSON转换为Java。漂亮的印刷JSON。Java JSON序列化程序。
+jsoniter - 具有迭代器和延迟解析API的快速灵活的库。
+LoganSquare - 基于Jackson的流API的JSON解析和序列化库。优于GSON＆Jackson的图书馆。
+Moshi - 现代JSON库，不那么自以为是，并使用List和Map等内置类型。
+Yasson - 类和JSON文档之间的绑定层，类似于JAXB。
+JSON处理
+用于以JSON格式处理数据的库。
+
+fastjson - 非常快的处理器，没有额外的依赖性和完整的数据绑定。
+Jolt - JSON到JSON转换工具。
+JsonPath - 使用类似XPATH的语法从JSON中提取数据。
+JsonSurfer - 流JasonPath处理器，专用于处理大而复杂的JSON数据。
+JVM和JDK
+JVM / JDK的当前实现。
+
+Avian - 具有JIT和AOT模式的JVM。包括iOS端口。
+Graal - 可以嵌入的Polyglot虚拟机。
+OpenJ9 - 高性能，企业级，灵活许可，开放式管理的跨平台Java虚拟机，可扩展和扩充Eclipse OMR和OpenJDK项目中的运行时技术组件。
+OpenJDK - Linux的开源实现。
+ParparVM - 适用于iOS的非阻塞并发GC的VM。
+Zulu - 适用于Windows，Linux和Mac OS X的OpenJDK版本。
+记录
+记录应用程序行为的库。
+
+Apache Log4j 2 - 使用强大的插件和配置架构完成重写。
+Graylog - 适用于扩展角色和权限管理的开源聚合器。
+Kibana - 分析和可视化日志文件。某些功能需要付款。
+Logback - 通过Groovy提供有趣配置选项的强大日志库。
+Logbook - 用于HTTP请求和响应记录的可扩展开源库。
+Logstash - 用于管理日志文件的工具。
+SLF4J - 抽象层/简单的伐木门面。
+tinylog - 具有静态记录器类的轻量级日志记录框架。
+跟踪器 - 在分布式系统中调用跟踪和日志关联。
+机器学习
+提供用于从数据中学习的特定统计算法的工具。
+
+Apache Flink - 快速，可靠，大规模的数据处理引擎。
+Apache Mahout - 可扩展的算法，专注于协同过滤，聚类和分类。
+Apache Spark - 数据分析集群计算框架。
+DatumBox - 为自然语言处理提供多种算法和预训练模型。
+DeepDive - 从非结构化数据创建结构化信息，并将其集成到现有数据库中。
+Deeplearning4j - 分布式和多线程深度学习库。
+H2O - 用于统计大数据的分析引擎。
+JSAT - 支持多线程执行的预处理，分类，回归和聚类算法。
+Oryx 2 - 构建实时，大规模机器学习应用程序的框架。包括用于协作过滤，分类，回归和群集的端到端应用程序。
+微笑 - 统计机器智能和学习引擎提供了一组机器学习算法和可视化库。
+Weka - 从预处理到可视化的数据挖掘任务算法的集合。
+消息
+有助于在客户端之间发送消息以确保协议独立性的工具。
+
+Aeron - 高效，可靠，单播和多播消息传输。
+Apache ActiveMQ - 实现JMS并将同步转换为异步通信的消息代理。
+Apache Camel - 通过企业集成模式将不同的传输API粘合在一起。
+Apache Kafka - 高吞吐量分布式消息传递系统。
+Apache Pulsar - 分布式发布/子消息系统。
+Apache RocketMQ - 一种快速，可靠，可扩展的分布式消息传递平台。
+EventBus - 简单的发布/订阅事件总线。
+Hermes - 建立在Kafka之上的快速可靠的消息代理。
+JeroMQ - ZeroMQ的实现。
+Nakadi - 在Kafka之上提供RESTful API。
+Smack - 跨平台XMPP客户端库。
+杂
+其他一切。
+
+Codename One - 用于编写本机移动应用程序的跨平台解决方案。
+CQEngine - Java集合上的超快速，类似SQL的查询。
+设计模式 - 最常见设计模式的实现和解释。
+故障安全 - 通过重试和断路器进行简单的故障处理。
+FF4J - Java的功能标志。
+FizzBu​​zz企业版 - 由严肃的商人为严肃的商业目的制作的FizzBu​​zz的严肃实施。
+J2ObjC - 用于将Android库移植到iOS的Java-to-Objective-C转换器。
+JavaX - 重点关注简单性，重新发明和扩展Java。
+JBake - 静态网站生成器。
+JBot - 构建聊天机器人的框架。
+Jimfs - 内存文件系统。
+Joda-Money - JDK未提供的基本货币和金钱类和算法。
+JPad - Snippet runner。
+LightAdmin - 可插拔的CRUD UI库，用于快速应用程序开发。
+Maven Wrapper - Maven Gradle Wrapper的模拟，允许在不安装maven的情况下构建项目。
+Membrane Service Proxy - 一种用Java编写的开源反向代理框架。
+MinimalFTP - 轻量级，小型和可定制的FTP服务器。
+现代Java - Java 8指南 - 流行的Java 8指南。
+Modernizer - 检测旧Java API的使用。
+多操作系统引擎 - 开发本地移动（iOS，Android等）应用程序的开源跨平台引擎。
+OpenRefine - 处理凌乱数据的工具：清理，转换，使用Web服务扩展它并将其链接到数据库。
+Maven的Polyglot - Maven 3.3.1+的扩展，允许用XML以外的方言编写POM模型。
+Smooks - 用于构建处理数据的应用程序的可扩展框架，这意味着绑定，转换，消息处理和丰富。
+Togglz - 功能切换模式的实现。
+TypeTools - 用于解析泛型类型的工具。
+XMLBeam - 在代码中使用注释或XPath处理XML。
+OctoLinker - 浏览器扩展，可以更有效地浏览GitHub上的代码。
+微服务
+用于创建和管理微服务的工具。
+
+Apollo - 用于编写可组合微服务的库。
+consul-api - Consul API的客户端：分布式，高可用性和数据中心感知的注册表/发现服务。
+Eureka - 基于REST的服务注册表，用于弹性负载平衡和故障转移。
+Lagom - 用于创建基于微服务的系统的框架。
+Micronaut - 现代全栈框架，专注于模块化，最小内存占用和启动时间。
+监控
+监视生产中的应用程序的工具。
+
+AppDynamicsC - 性能监视器。
+Automon - 将AOP的强大功能与监控和/或记录工具相结合。
+BugSnagC - 通过集成多个第三方工具实现异常和错误监控，以实现更好的工作流程和免费的业余爱好者层。
+LeakCanary - 内存泄漏检测。
+故障安全执行器 - 在Spring-Boot环境中对故障安全断路器进行开箱即用的监控。
+Glowroot - 开源Java APM。
+inspectIT - 通过可以即时更改的挂钩捕获详细的运行时信息。它支持通过OpenTracing API跟踪多个系统，并可以将数据与最终用户监控相关联。
+InstrumentalC - 实时Java应用程序性能监视。具有免费开发账户的商业服务。
+JavaMelody - 性能监控和分析。
+jmxtrans - 连接到多个JVM并通过JMX查询它们的属性。它的查询语言基于JSON，允许非Java程序员访问JVM属性。支持不同的输出写入，包括Graphite，Ganglia和StatsD。
+Jolokia - JMX over REST。
+Kamon - 用于监视在JVM上运行的应用程序的工具。
+度量标准 - 通过JMX或HTTP公开度量标准并将其发送到数据库。
+New RelicC - 性能监视器。
+nudge4j - 通过字节码注入从Java 8浏览器远程开发人员控制台。
+OverOpsC - 生产中错误监视和调试。
+Pinpoint - 开源APM工具。
+Prometheus - 提供多维数据模型，DSL，自治服务器节点等等。
+SPMC - 具有JVM应用程序分发事务跟踪的性能监视器。
+Stagemonitor - JVM应用程序的开源性能监视和事务跟踪。
+Sysmon - 适用于Java VM的轻量级平台监控工具。
+zipkin - 分布式跟踪系统，用于收集解决微服务架构中延迟问题所需的时序数据。
+本地人
+用于处理特定于平台的本机库。
+
+JavaCPP - 提供对本机C ++的高效和轻松访问。
+JNA - 在不编写JNI的情况下使用本机库。还提供了通用系统库的接口。
+JNR - 无需编写JNI即可使用本机库。还提供了通用系统库的接口。与JNA目标相同，但更快，并作为即将到来的巴拿马项目的基础。
+自然语言处理
+专门处理文本的库。
+
+CogCompNLP - 为纯文本输入提供通用注释器。
+CoreNLP - 为标记，命名实体识别和情感分析等任务提供一组基本工具。
+DKPro - 用于语言预处理，机器学习，词汇资源等的可重复使用的NLP工具的集合。
+LingPipe - 从POS标记到情感分析的任务工具包。
+联网
+用于构建网络服务器的库。
+
+Comsat - 将标准的Java Web相关API与Quasar光纤和actor集成在一起。
+Dubbo - 高性能RPC框架。
+Finagle - 用于构建高并发服务器的可扩展RPC系统。它为多个协议实现统一的客户端和服务器API，并且与协议无关，以简化新协议的实现。
+Grizzly - NIO框架。用作Glassfish中的网络层。
+gRPC - 基于protobuf和HTTP / 2的RPC框架。
+KryoNet - 使用NIO和Kryo​​为高效的TCP和UDP客户端/服务器网络通信提供简洁的API。
+MINA - 抽象，事件驱动的异步I / O API，用于通过Java NIO进行TCP / IP和UDP / IP上的网络操作。
+Netty - 构建高性能网络应用程序的框架。
+Nifty - 在Netty上实现Thrift客户端和服务器。
+sshj - 以编程方式使用SSH，SCP或SFTP。
+TLS通道 - 通过SSLEngine实现ByteChannel接口，实现易于使用（类似套接字）的TLS。
+Undertow - 基于NIO提供阻塞和非阻塞API的Web服务器。用作WildFly中的网络层。
+urnlib - 表示，解析和编码URN，如RFC 2141中所述。
+ORM
+处理对象持久性的API。
+
+Apache Cayenne - 为数据访问提供干净，静态的API。还包括用于处理数据库映射的GUI Modeler，以及DB逆向工程和生成。
+Ebean - 提供简单快速的数据访问。
+EclipseLink - 支持许多持久性标准：JPA，JAXB，JCA和SDO。
+Hibernate - 强大且广泛使用，具有活跃的社区。
+MyBatis - 使用存储过程或SQL语句耦合对象。
+SimpleFlatMapper - 简单的数据库和CSV映射器。
+PaaS的
+Java平台即服务。
+
+AWS Elastic BeanstalkC - 基于AWS，支持Tomcat和Jetty。
+AWS LambdaC - 无服务器计算。
+Google App EngineC - Google基础架构上的PaaS。
+HerokuC - 抽象计算环境。
+JelasticC - 支持Tomcat，Jetty，GlassFish，JBoss，TomEE和WildFly。
+OpenShift EnterpriseC - 内部部署解决方案。
+PDF
+帮助PDF文件创建的工具。
+
+Apache FOP - 从XSL-FO创建PDF。
+Apache PDFBox - 用于创建和操作PDF的工具箱。
+动态Jasper - JasperReports的抽象层。
+DynamicReports - 简化JasperReports。
+flyingsaucer - XML / XHTML和CSS 2.1渲染器。
+iTextC - 以编程方式创建PDF文件。
+JasperReports - 复杂的报告引擎。
+绩效分析
+用于性能分析，分析和基准测试的工具。
+
+fastThreadC - 使用免费的基于云的上传界面分析和可视化线程转储。
+GCeasyC - 分析和可视化GC日志的工具。它提供免费的基于云的上传界面。
+honest-profiler - 低开销，无偏置的采样分析器。
+jHiccup - 记录和记录平台JVM停顿。
+JITWatch - 分析HotSpot JVM进行的JIT编译器优化。
+JMH - 用于构建，运行和分析用Java和其他针对JVM的语言编写的nano / micro / milli / macro基准测试的Java工具。
+JProfilerC - JDBC，JPA和NoSQL的数据库分析，支持JEE。
+LatencyUtils - 用于延迟测量和报告的实用程序。
+XRebelC - 使用浏览器内部小部件对Web应用程序进行实时分析。
+YourKit Java ProfilerC - 在JVM上运行的任何应用程序的Profiler。
+平台
+框架是包含多个类别的多个库的套件。
+
+Apache Commons
+池 - 通用对象池组件。
+BCEL - 字节代码工程库 - 分析，创建和操作Java类文件。
+编解码器 - 通用编码/解码算法（例如语音，base64，URL）。
+压缩 - 定义用于处理tar，zip和bzip2文件的API。
+IO - I / O实用程序的集合。
+配置 - 以各种格式读取配置/首选项文件。
+VFS - 虚拟文件系统组件，用于将文件，FTP，SMB，ZIP等视为单个逻辑文件系统。
+Jelly - 基于XML的脚本和处理引擎。
+CSV - 用于读取和写入逗号分隔值文件的组件。
+JCS - Java缓存系统。
+电子邮件 - 用于从Java发送电子邮件的库。
+DbUtils - JDBC帮助程序库。
+FileUpload - servlet和Web应用程序的文件上载功能。
+Lang - 为java.lang中的类提供额外的功能。
+Jexl - 表达语言，它扩展了JSTL的表达式语言。
+CLI - 命令行参数解析器。
+Validator - 在xml文件中定义验证器和验证规则的框架。
+Net - 网络实用程序和协议实现的集合。
+RNG - Commons Rng提供伪随机数生成器的实现。
+RDF - 可以由JVM上的系统实现的RDF 1.1的通用实现。
+Weaver - 提供一种增强（编织）编译字节码的简便方法。
+BeanUtils - 围绕Java反射和内省API的易于使用的包装器。
+集合 - 扩展或扩充Java集合框架。
+DBCP - 数据库连接池服务。
+数学 - 轻量级，自包含的数学和统计组件。
+Exec - 用于在Java中处理外部流程执行和环境管理的API。
+围绕各种日志API实现记录包装器。
+OGNL - 对象图导航语言。
+JCI - Java编译器接口。
+守护程序 - 类似于unix-daemon的java代码的替代调用机制。
+Functor - 仿函数是一种可以作为对象操作的函数，或者是表示单个通用函数的对象。
+Digester - XML-to-Java-object映射实用程序。
+BSF - Bean Scripting Framework - 脚本语言的接口，包括JSR-223。
+成像 - 纯Java图像库。
+SCXML - 旨在创建和维护Java SCXML引擎的State Chart XML规范的实现。
+JXPath - 使用XPath语法操作Java Bean的实用程序。
+链 - 责任链模式实施。
+代理 - 用于创建动态代理的库。
+BeanUtils2 - 重新设计Commons BeanUtils。
+ClassScan - 无需加载即可查找类接口，方法，字段和注释。
+CLI2重新设计Commons CLI。
+转换 - Commons-Convert旨在提供一个专门用于将一种类型的对象转换为另一种类型的任务的库。
+Finder - 受UNIX find命令启发的Java库。
+Flatfile - 用于处理平面数据结构的Java库。
+图表 - 通用图形API和算法。
+I18n - 添加本地化消息包的功能，该功能包含一个或多个属于一起的本地化文本。
+Id - Id是用于生成标识符的组件。
+Javaflow - 继续实现以捕获应用程序的状态。
+JNet - JNet允许通过java.net API动态注册url流处理程序。
+监控 - 监控旨在为Java应用程序提供简单但可扩展的监控解决方案。
+Nabla - Nabla提供自动差异类，可以生成用Java语言实现的任何函数的派生。
+OpenPGP - 使用OpenPGP签名和验证数据的接口。
+性能 - 微基准客户端的小框架，具有Commons DBCP和Pool的实现。
+管道 - 提供一组围绕工作队列设计的管道实用程序，这些工作队列并行运行以顺序处理数据对象。
+其他
+CUBA平台 - 基于Spring，EclipseLink和Vaadin开发具有丰富Web界面的企业应用程序的高级框架。
+Light-Java - 一种快速，轻量且高效的微服务框架，具有内置安全性。
+Orienteer - 用于快速配置/开发CRM，ERP，LMS和其他应用程序的开源业务应用程序平台。
+Spring - 为依赖注入，面向方面编程，安全性等提供许多包。
+流程
+有助于管理操作系统进程的库。
+
+ch.vorburger.exec - 围绕Apache Commons Exec的便捷API。
+zt-exec - 为Apache Commons Exec和ProcessBuilder提供统一的API。
+zt-process-killer - 通过PID停止从Java或系统进程启动的进程。
+反应性图书馆
+用于开发反应式应用程序的库。
+
+Akka - 用于构建并发，分布式，容错和事件驱动应用程序的工具包和运行时。
+Reactive Streams - 为非阻塞背压的异步流处理提供标准。
+Reactor - 用于构建反应式快速数据应用程序的库。
+RxJava - 允许使用可观察序列组成异步和基于事件的程序。
+vert.x - Polyglot事件驱动的应用程序框架。
+REST框架
+专门用于创建RESTful服务的框架。
+
+Dropwizard - 用于设置Jetty，Jackson，Jersey和Metrics的现代Web应用程序的意见框架。
+Jersey - JAX-RS参考实现。
+Microserver - 一个方便，可扩展的微服务插件系统，用于Spring和Spring Boot。有超过30个插件和增长，它支持微整体和纯微服务风格。
+Rapidoid - 一个简单，安全且极其快速的框架，由嵌入式HTTP服务器，GUI组件和依赖注入组成。
+rest.li - 使用类型安全绑定和异步，非阻塞IO构建强大，可扩展的RESTful架构的框架，其中包含端到端开发人员工作流程，可促进清洁实践，统一界面设计和一致的数据建模。
+RESTEasy - JAX-RS规范的完全认证和可移植实现。
+RestExpress - JBoss Netty HTTP堆栈上的瘦包装器，提供扩展和性能。
+Restlet Framework - 具有强大的路由和过滤功能的先锋框架，以及统一的客户端和服务器API。
+Spark - Sinatra启发框架。
+Crnk - 实现JSON API规范，以构建面向资源的REST端点，包括排序，过滤，分页，链接，对象图，类型安全，批量更新，集成等。
+Swagger - 与REST API的标准，语言无关的接口。
+科学
+用于科学计算，分析和可视化的库。
+
+DataMelt - 用于科学计算，数据分析和数据可视化的环境。
+鄂尔多斯 - 理论算法的模块化，轻松和简单的图形框架。
+GraphStream - 用于建模和分析动态图的库。
+JFreeChart - 用于Swing，JavaFX和服务器端应用程序的2D图表库。
+JGraphT - 提供数学图论理论对象和算法的图库。
+JGraphX - 用于可视化（主要是Swing）和与节点边缘图形交互的库。
+Mines Java Toolkit - 用于地球物理科学计算，可视化和数字信号分析的库。
+Morpheus - 提供通用的二维内存高效表格数据结构，称为DataFrame，以便为JVM上的科学计算实现高效的内存分析。
+Tablesaw - 包括数据框架，嵌入式列存储以及数百种转换，汇总或过滤数据的方法。
+搜索
+索引文档以进行搜索和分析的引擎。
+
+Apache Lucene - 高性能，功能齐全，跨平台的文本搜索引擎库。
+Apache Solr - 针对大容量流量进行了优化的企业搜索引擎。
+Elasticsearch - 具有RESTful Web界面和无架构JSON文档的分布式，多租户能力的全文搜索引擎。
+安全
+处理安全性，身份验证，授权或会话管理的库。
+
+Apache Shiro - 执行身份验证，授权，加密和会话管理。
+Bouncy Castle - 通用加密库和JCA提供程序，提供从基本帮助程序到PGP / SMIME操作的各种功能。
+Cryptomator - 云中文件的多平台，透明，客户端加密。
+Hdiv - 运行时应用程序，可以排除 OWASP Top 10中包含的应用程序安全风险，包括SQL注入，跨站点脚本，跨站点请求伪造，数据篡改和暴力攻击。
+jjwt - Java和Android的JSON Web令牌。
+Jwks RSA - JSON Web Key Set解析器。
+Keycloak - 用于浏览器应用和RESTful Web服务的集成SSO和IDM。
+Keyczar - 易于使用，安全的加密框架，带有密钥版本控制。
+Keywhiz - 分发和管理秘密的系统。
+Nbvcxz - 高级密码强度估计。
+OACC - 提供基于权限的授权服务。
+pac4j - 安全引擎。
+PicketLink - 用于安全和身份管理的伞项目。
+SecurityBuilder - 用于JCA和JSSE类的Fluent Builder API，尤其是X.509证书。
+Themis - 多平台高级加密库提供易于使用的加密，用于保护敏感数据：具有前向保密的安全消息传递，安全数据存储（AES256GCM）; 适合构建端到端加密应用程序。
+Tink - 为常见的加密任务提供简单且防误用的API。
+保险柜 - 保护，存储和严格控制对令牌，密码，证书，API密钥和其他机密的访问。它处理租赁，密钥撤销，密钥滚动和审计。通过统一的API，用户可以访问加密的键/值存储和网络加密即服务，或生成AWS IAM / STS凭证，SQL / NoSQL数据库，X.509证书，SSH凭据等。
+序列化
+处理高效串行化的库。
+
+FlatBuffers - 内存高效的序列化库，可以访问序列化数据而无需解压缩和解析。
+FST - 兼容JDK的高性能对象图序列化。
+Kryo - 快速高效的对象图序列化框架。
+MessagePack - 高效的二进制序列化格式。
+PHP Serializer - 以PHP序列化格式序列化对象。
+服务器
+专门用于部署应用程序的服务器
+
+Apache Tomcat - 用于Servlet和JSP的强大，全面的服务器。
+Apache TomEE - Tomcat和Java EE。
+Jetty - 提供Web服务器和javax.servlet容器，以及对HTTP / 2，WebSocket，OSGi，JMX，JNDI，JAAS和许多其他集成的支持。
+nanohttpd - 小巧，易于嵌入的HTTP服务器。
+WebSphere Liberty - 由IBM开发的轻量级模块化服务器。
+WildFly - 以前称为JBoss，由Red Hat开发，具有广泛的Java EE支持。
+模板引擎
+替换模板中表达式的工具。
+
+Handlebars.java - 无逻辑和语义的胡须模板。
+Jade4J - Pug（以前称为Jade）的实施。
+Jtwig - 模块化，可配置且经过全面测试的模板引擎。
+Pebble - 受Twig的启发，并以其继承功能和易于阅读的语法分离。它附带内置自动安全功能，用于安全性，并包含对国际化的集成支持。
+Thymeleaf - 旨在替代JSP并适用于XML文件。
+测试
+从模型到视图测试的工具。
+
+异步
+简化测试异步服务的工具。
+
+Awaitility - 用于同步异步操作的DSL。
+ConcurrentUnit - 用于测试多线程和异步应用程序的工具包。
+GreenMail - 用于集成测试的内存中电子邮件服务器。支持SMTP，POP3和IMAP，包括SSL。
+Hoverfly Java - Hoverfly的本机绑定，一种允许您模拟HTTP服务的代理。
+REST Assured - 用于轻松测试REST / HTTP服务的DSL。
+BDD
+测试从TDD出现的软件开发过程，并受DDD和OOAD的严重影响。
+
+黄瓜 - 提供一种用客户可以理解的简单语言描述功能的方法。
+Cukes-REST - 使用Cucumber进行REST服务测试的Gherkin步骤集合。
+J8Spec - 遵循类似Jasmine的语法。
+JBehave - 广泛可配置的框架，用于描述故事。
+JGiven - 提供流畅的API，允许更简单的组合。
+Lamdba Behave - 旨在提供一个流畅的API，用长而简洁的句子写出测试，读起来像普通的英语。
+赛程
+一切都与随机数据的创建和处理有关。
+
+Beanmother - 从YAML灯具设置bean。
+Fixture Factory - 从模板生成假对象。
+JFairy - 假数据生成器。
+随机测试 - 用于以伪随机方式运行JUnit测试的JUnit测试运行器和插件。
+Java Faker - Ruby虚假数据生成器的一个端口。
+构架
+提供环境以运行特定用例的测试。
+
+ArchUnit - 用于指定和断言体系结构规则的测试库。
+Apache JMeter - 功能测试和性能测量。
+Arquillian - Java EE容器的集成和功能测试平台。
+Citrus - 集成测试框架，侧重于客户端和服务器端消息传递。
+Gatling - 负载测试工具，易于使用，可维护性和高性能。
+JUnit - 通用测试框架。
+契约JVM - 消费者驱动的合同测试。
+PIT - 用于评估现有JUnit或TestNG测试套件的故障检测能力的快速变异测试框架。
+匹配器
+提供自定义匹配器的库。
+
+AssertJ - 流畅的断言，提高可读性。
+JSONAssert - 简化测试JSON字符串。
+真相 - 谷歌的断言和主张框架。
+杂
+其他与测试有关的东西。
+
+Mutability Detector - 报告给定类的实例是否是不可变的。
+raml-tester - 测试请求/响应是否与给定的RAML定义匹配。
+TestContainers - 提供常见数据库，Selenium Web浏览器或可在Docker容器中运行的任何其他内容的一次性实例。
+pojo-tester - 自动执行基本POJO方法的测试。
+惩戒
+模拟合作者帮助测试单个孤立单元的工具。
+
+JMockit - 集成测试，API模拟和伪造以及代码覆盖。
+Mockito - Mocking框架，允许您使用简洁的API编写测试。
+MockServer - 允许模拟与HTTPS集成的系统。
+Moco - 存根和模拟的简洁Web服务。
+PowerMock - 模拟静态方法，构造函数，最终类和方法，私有方法以及静态初始化程序的删除。
+WireMock - 存根和模拟 Web服务。
+参数
+简化参数化测试的编写。
+
+Burst - 用于改变测试数据的单元测试库。
+junit-dataprovider - JUnit的类似TestNG的数据提供者/运行者。
+JUnitParams - 创建可读和可维护的参数化测试。
+效用
+提供通用实用功能的库。
+
+bucket4j - 基于令牌桶算法的速率限制库。
+cactoos - 面向对象原语的集合。
+CRaSH - 为运行CRaSH的JVM提供shell。由Spring Boot和其他人使用。
+Dex - Java / JavaFX工具，具有强大的ETL和数据可视化功能。
+Embulk - 批量数据加载器，可帮助在各种数据库，存储，文件格式和云服务之间进行数据传输。
+fswatch - 用于监视目录文件系统更改的微库，简化了java.nio.file.WatchService
+Gephi - 用于可视化和操作大型图形网络的跨平台。
+Guava - 集合，缓存，原语支持，并发库，通用注释，字符串处理，I / O等。
+JADE - 用于构建和调试多代理系统的框架和环境。
+JavaVerbalExpressions - 帮助构建困难的正则表达式的库。
+JGit - 一个实现Git版本控制系统的轻量级纯Java库。
+minio-java - 提供简单的API来访问任何与Amazon S3兼容的对象存储服务器。
+Protégé - 提供本体编辑器和构建基于知识的系统的框架。
+Underscore-java - Underscore.js函数的端口。
+版本管理员
+有助于创建开发shell环境并在不同Java版本之间切换的实用程序。
+
+jabba - 受nvm启发的Java Version Manager。支持Mac OS X，Linux和Windows。
+jenv - 受rbenv启发的Java版本管理器。可以全局配置或按项目配置。在Debian和Mac OS X上测试过。
+SDKMan - 受RVM和rbenv启发的Java版本管理器。支持基于UNIX的平台和Windows。
+网络爬行
+分析网站内容的图书馆。
+
+Apache Nutch - 适用于生产环境的高度可扩展，高度可扩展的Web爬网程序。
+Crawler4j - 简单轻量级的网络爬虫。
+jsoup - Scrapes，解析，操作和清理HTML。
+StormCrawler - 用于构建低延迟和可扩展的Web爬网程序的SDK。
+webmagic - 具有下载，URL管理，内容提取和持久性的可扩展爬虫。
+Web框架
+处理Web应用程序层之间通信的框架。
+
+Apache Tapestry - 面向组件的框架，用于创建动态，健壮，高度可伸缩的Web应用程序。
+Apache Wicket - 基于组件的Web应用程序框架，类似于Tapestry，具有状态GUI。
+刀片 - 轻巧，模块化的框架，旨在优雅和简单。
+Bootique - 针对可运行应用程序的最小观点框架。
+Firefly - 用于快速开发高性能Web应用程序的异步框架。
+Grails - Groovy框架，通过优于配置，不支持XML和支持mixin，提供高效的环境。
+Jooby - 可扩展，快速和模块化的微框架，提供多种编程模型。
+忍者 - 全栈Web框架。
+Pippo - 小型，高度模块化，类似Sinatra的框架。
+Play - 基于Akka，它为Java和Scala中的高度可伸缩应用程序提供可预测且最小的资源消耗（CPU，内存，线程）。
+PrimeFaces - 具有免费和商业/支持版本以及前端组件的JSF框架。
+Ratpack - 一组库，可以促进快速，高效，可进化和经过良好测试的HTTP应用程序。
+Takes - 基于True Object-Oriented Programming和immutability概念构建的Opinionated Web框架。
+Vaadin - 基于GWT构建的事件驱动框架。在客户端使用Ajax的服务器端体系结构。
+资源
+令人敬畏的名单
+与Java和JVM生态系统相关的令人敬畏的列表。
+
+令人敬畏的Gradle插件
+AwesomeJavaFX
+非常棒的JVM
+令人敬畏的微服务
+很棒的REST
+令人敬畏的硒
+ciandcd
+有用的Java链接
+社区
+积极讨论。
+
+r / java - Java社区的Subreddit。
+stackoverflow - 问答平台。
+VirtualJUG - 虚拟Java用户组。
+前端
+为此列表提供前端的网站。请注意，不会有官方网站。我们不与特定网站相关联，并且允许每个人创建一个网站。
+
+java.libhunt.com
+有影响力的书籍
+书籍产生了很大的影响，仍然值得一读。
+
+核心Java第一卷 - 基础知识
+核心Java，第二卷 - 高级功能
+有效的Java（第3版）
+Java并发实践
+用Java思考
+播客和截屏视频
+在编程时要注意或听的东西。
+
+Java Off Heap
+Marco Behler的Screencasts - 关于现代Java开发的截屏视频。
+Java委员会
+Java Posse - 自2015年2月起停产。
+推特
+积极的帐户要遵循。来自Twitter的描述。
+
+Adam Bien - 自由撰稿人，JavaOne Rockstar演讲者，顾问，Java Champion。
+AlekseyShipilëv - 性能极客，基准测试沙皇，并发bug猎人。
+Antonio Goncalves - Java Champion，JUG Leader，Devoxx France，Java EE 6/7，JCP，作者。
+Arun Gupta - Java Champion，JavaOne Rockstar，JUG Leader，Devoxx4Kids-er，Couchbase开发人员倡导副总裁。
+Brian Goetz - Oracle的Java语言架构师。
+Bruno Borges - Oracle产品经理/ Java Jock。
+Chris Richardson - 软件架构师，顾问和连续企业家，Java Champion，JavaOne Rock Star，* POJO in Action-作者。
+Ed Burns - Oracle技术人员的咨询成员。
+Eugen Paraschiv - 春季安全课程的作者。
+Heinz Kabutz - Java Champion，演讲者，Java专家通讯的作者，并发性能专家。
+Holly Cummins - IBM伦敦Bluemix Garage的技术主管，Java Champion，开发人员，作者，JavaOne rockstar。
+James Weaver - Java / JavaFX / IoT开发人员，作者和演讲者。
+Java EE - 官方Java EE Twitter帐户。
+Java Magazine - 官方Java Magazine帐户。
+Java - 官方Java Twitter帐户。
+Javin Paul - 着名的Java博主。
+Josh Long - Pivotal的Spring Advocate，O'Reilly的Cloud Native Java-以及Spring Boot的构建微服务，JavaOne Rock Star的作者。
+Lukas Eder - Java Champion，演讲者，JUG.ch联合领导人，创始人兼首席执行官Data Geekery（jOOQ）。
+Mario Fusco - RedHatter，JUG协调员，经常发言人和作者。
+Mark Heckler - Pivotal首席技术专家和开发者倡导者，会议发言人，出版作者和Java Champion，专注于物联网和云计算。
+Mark Reinhold - Oracle平台集团首席架构师。
+Markus Eisele - Java EE布道者，Red Hat。
+Martijn Verburg - 伦敦JUG联合领导人，演讲者，作家，Java冠军等等。
+马丁汤普森 - Pasty面对表演黑帮。
+Monica Beckwith - JavaOne Rock Star的性能顾问。
+OpenJDK - 官方OpenJDK账户。
+Peter Lawrey - Peter Lawrey，Java性能专家。
+Randy Shoup - Stitch Fix VP工程，演讲者，JavaOne摇滚明星。
+Reza Rahman - Java EE / GlassFish / WebLogic布道者，作者，演讲者，开源黑客。
+Simon Maple - Java Champion，VirtualJUG创始人，LJC领导者，RebelLabs作者。
+Stephen Colebourne - Java冠军，演讲嘉宾。
+Trisha Gee - Java冠军和演讲嘉宾。
+Venkat Subramaniam - 作者，休斯顿大学教授，MicroSoft MVP奖获得者，JavaOne Rock Star，Java Champion。
+网站
+要阅读的网站。
+
+谷歌Java风格
+InfoQ中文站
+Java算法和客户端
+Java，SQL和jOOQ
+Java.net
+的Javalobby
+JavaWorld的
+JAXenter
+RebelLabs
+Takipi博客
+TheServerSide.com
+香草爪哇
+Voxxed
